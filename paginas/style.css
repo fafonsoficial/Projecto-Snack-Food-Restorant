@@ -61,9 +61,9 @@ main {
 
 #primeira-pagina h1 {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    font-size: 5em;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    font-size: 7em;
     font-weight: 900;
     text-shadow: 7px 10px 10px black;
 }
@@ -92,4 +92,17 @@ main {
     text-shadow: 7px 10px 10px black;;
 
 }
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
