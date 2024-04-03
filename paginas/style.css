@@ -114,16 +114,54 @@ footer a {
 }
 
 #segunda-pagina > article {
-    max-width: 1000px;
+    max-width: 500px;
     margin: auto;
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.067);
+    background-color: transparent;
     border-radius: 10px;
 }
 
 #segunda-pagina > p {
-    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
 }
+
+#teceira-pagina article {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+#teceira-pagina h5 {
+    padding-top: 1px;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+}
+
+#teceira-pagina  h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center; 
+    text-shadow: 7px 10px 10px black;
+}
+
+#teceira-pagina p {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
