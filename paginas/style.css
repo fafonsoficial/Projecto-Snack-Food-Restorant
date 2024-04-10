@@ -9,23 +9,24 @@
 }
 
 header {
-    /*fazer alterção do meu header acrescetando o meu heagth e o width, e retirar as margin e padding */
-    margin: 15px;
-    padding: 15px;
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
 .logo {
-    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
     font-weight: 700;
 }
 
-.logo a {
-    text-decoration: none;
-    color: white;
-    text-shadow: 10px 10px 10px black;
-}
 
 header > nav {
     font-size: 16px;
@@ -33,7 +34,7 @@ header > nav {
 }
 
 header > nav > a {
-    padding: 40px;
+    
     text-decoration: none;
     color: white;
     text-shadow: 7px 3px 10px black;
