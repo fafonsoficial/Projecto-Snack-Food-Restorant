@@ -9,6 +9,7 @@
 }
 
 header {
+    /*fazer alterção do meu header acrescetando o meu heagth e o width, e retirar as margin e padding */
     margin: 15px;
     padding: 15px;
     display: flex;
@@ -47,6 +48,8 @@ header > nav > a:hover {
 }
 
 body {
+    /*configurar melhor a posição da imagem do fundp com a nova aula que estou tendo no momenoto*/
+
     background-image: url(/img/img-fundo/fundo.jpg);
     background-size: cover;
     background-position: center;
@@ -54,6 +57,7 @@ body {
 }
 
 main {
+    /*alterar as margin e padding para heagth e width */
     margin: 16px;
     padding: 16px;
     color: white;
