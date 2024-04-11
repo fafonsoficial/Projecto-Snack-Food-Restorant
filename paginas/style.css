@@ -28,24 +28,19 @@ header {
 }
 
 
-header > nav {
+.navbar a {
     font-size: 16px;
     font-weight: 500;
-}
-
-header > nav > a {
-    
-    text-decoration: none;
+    margin-left: 35px;
     color: white;
-    text-shadow: 7px 3px 10px black;
-    transition: 1s;
-
+    text-decoration: none;
+    text-shadow: 5px 3px 10px black;
+    transition: .3s;
 }
 
-header > nav > a:hover {
-    text-decoration: underline;
-    color: blue;
-    
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
 }
 
 body {
